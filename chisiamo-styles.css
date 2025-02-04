@@ -48,6 +48,39 @@ header {
     background-color: #f4f4f4;
 }
 
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.title-container h1 {
+    margin-right: auto; /* Spinge la scritta verso sinistra */
+}
+
+.title-container .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-container .logo {
+    width: 60px;
+    height: auto;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+.title-container .approved-text {
+    margin-top: 5px; /* Distanza tra il logo e la scritta */
+    color: green;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+
 .about-content {
     width: 80%;
     max-width: 900px;
