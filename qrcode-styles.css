@@ -1,0 +1,102 @@
+/* Stili generali */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d6a4f;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    background: white;
+    color: #2d6a4f;
+    border-radius: 5px;
+}
+
+/* Sezione QR Code */
+#qrcode-info {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#qrcode-info h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2d6a4f;
+}
+
+#qrcode-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#qrcode-info .btn-link {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#qrcode-info .btn-link:hover {
+    background-color: #45a049;
+}
+
+/* Sezione immagini QR Code */
+.qrcode-images {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Aumentato lo spazio tra le immagini */
+    margin-top: 30px;
+}
+
+.qrcode-img {
+    width: 350px;  /* Immagini più grandi */
+    height: 350px; /* Immagini più grandi */
+    object-fit: contain; /* Mantieni l'intera immagine senza ritagliarla */
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2d6a4f;
+    color: white;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2d6a4f;
+    color: white;
+}
+

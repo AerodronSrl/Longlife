@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d6a4f;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    background: white;
+    color: #2d6a4f;
+    border-radius: 5px;
+}
+
+
+
+
+.our-services {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.our-services h2 {
+    font-size: 2.5em;
+    color: #2d6a4f;
+    margin-bottom: 40px;
+}
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.services-pair {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.service {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.service h3 {
+    font-size: 1.8em;
+    color: #2d6a4f;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Sezione apertura al mercato americano */
+.market-entry {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.market-entry h3 {
+    font-size: 2em;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+}
+
+.market-entry p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2d6a4f;
+    color: white;
+}
+
+.btn-link {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 12px;  /* Ridotto il padding per un bottone più piccolo */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 14px;  /* Ridotto la dimensione del font */
+}
+
+.btn-link:hover {
+    background-color: #45a049;
+}
+
+
