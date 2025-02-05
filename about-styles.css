@@ -72,6 +72,13 @@ body {
     border-radius: 5px;
 }
 
+video {
+    width: 100%; /* Il video occuperà tutta la larghezza del contenitore */
+    max-width: 1000px; /* Imposta una larghezza massima per non esagerare */
+    display: block;
+    margin: 50px auto; /* Lo centra orizzontalmente */
+}
+
 footer {
     text-align: center;
     padding: 20px;
